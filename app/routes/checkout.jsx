@@ -13,7 +13,7 @@ export async function action({request, context: {storefront}}) {
       {
         variables: {
           input: {
-            lineItems: [{ variantId: "gid://shopify/ProductVariant/45782004531490", quantity: tickets }],
+            lineItems: [{ variantId: "gid://shopify/ProductVariant/47078483853608", quantity: tickets }],
             note
           }
         },
