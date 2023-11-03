@@ -401,7 +401,7 @@ return (
             <div className="donation_form_wrap">
                 <div className="donation_text">
                     <h2>Donation Form</h2>
-                    <p>Raffle Tickets are £5.00 each. Grab some for yourself, your teammates, or donate to an entire department. Drawing will take place at the annual party.</p>
+                    <p>Raffle Tickets are £5.00 each. Grab some for yourself and your teammates.</p>
                 </div>
                 <form id="donation_form">
                     <input type="text" onChange={populateFirstName} className="form-input" name="donor-first-name" id="donor-first-name" placeholder="Donor First Name" />
@@ -1019,7 +1019,7 @@ return (
                                     My name
                                     {(listSelect === 'My Name') ? <img src="/images/checkmark.svg" className="checkmark" alt="arrow" /> : <></>}
                                 </li>
-                                <li onClick={() => {
+{/*                                 <li onClick={() => {
                                     if (listSelect === 'A Cerberus Employee') {
                                         setListSelect('')
                                     }
@@ -1032,7 +1032,7 @@ return (
                                 }}>
                                     A Cerberus Employee
                                     {(listSelect === 'A Cerberus Employee') ? <img src="/images/checkmark.svg" className="checkmark" alt="arrow" /> : <></>}
-                                </li>
+                                </li> */}
                                 <li onClick={() => {
                                     if (listSelect === 'For a Department') {
                                         setListSelect('')
