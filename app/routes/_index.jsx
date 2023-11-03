@@ -1019,7 +1019,7 @@ return (
                                     My name
                                     {(listSelect === 'My Name') ? <img src="/images/checkmark.svg" className="checkmark" alt="arrow" /> : <></>}
                                 </li>
-{/*                                 <li onClick={() => {
+                                <li onClick={() => {
                                     if (listSelect === 'A Cerberus Employee') {
                                         setListSelect('')
                                     }
@@ -1032,8 +1032,8 @@ return (
                                 }}>
                                     A Cerberus Employee
                                     {(listSelect === 'A Cerberus Employee') ? <img src="/images/checkmark.svg" className="checkmark" alt="arrow" /> : <></>}
-                                </li> */}
-                                <li onClick={() => {
+                                </li>
+{/*                                 <li onClick={() => {
                                     if (listSelect === 'For a Department') {
                                         setListSelect('')
                                     }
@@ -1046,7 +1046,7 @@ return (
                                 }}>
                                     For a Department
                                     {(listSelect === 'For a Department') ? <img src="/images/checkmark.svg" className="checkmark" alt="arrow" /> : <></>}
-                                </li>
+                                </li> */}
                             </ul>
                         </div> : <></>}
                     </div>
