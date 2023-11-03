@@ -264,7 +264,7 @@ return (
                     <br /><br />
                     <b>Eligibility:</b> Open to individuals 18 years or older. Entrants must provide valid identification upon request.
                     <br />
-                    <b>Entry Cost:</b> Participation requires the purchase of a raffle ticket, priced at £5 per ticket.
+                    <b>Entry Cost:</b> Participation requires the purchase of a raffle ticket, priced at €5 per ticket.
                     <br />
                     <b>Purpose:</b> All proceeds generated from the raffle will be channeled directly to the Make-A-Wish Foundation to support its mission.
                     <br />
@@ -378,7 +378,7 @@ return (
     <section className="main_sec">
         <div className="main_text_wrap">
             <h1>Cerberus Annual Make-A-<br />Wish Fundraiser</h1>
-            <p>Get your tickets now for £5.00 each by clicking the link below</p>
+            <p>Get your tickets now for €5.00 each by clicking the link below</p>
             <a href="#donate" className="button accent_button">Get Tickets</a>
         </div>
         <img className="curves" src="/images/curves.svg" alt="curves" />
@@ -392,7 +392,7 @@ return (
                 <br /><br />
                 More than 60,000 children in the UK have been diagnosed with a critical condition, changing their lives and the lives of their families forever. The power of a wish brings light and joy to children and leaves a lasting impact on all their lives.
                 <br /><br />
-                We managed to raise an incredible £10,000 at our launch and we are hoping to surpass this in 2023! So, please dig deep, and let’s help grant some more wishes!
+                We managed to raise an incredible €10,000 at our launch and we are hoping to surpass this in 2023! So, please dig deep, and let’s help grant some more wishes!
             </p>
         </div>
     </section>
@@ -401,7 +401,7 @@ return (
             <div className="donation_form_wrap">
                 <div className="donation_text">
                     <h2>Donation Form</h2>
-                    <p>Raffle Tickets are £5.00 each. Grab some for yourself and your teammates.</p>
+                    <p>Raffle Tickets are €5.00 each. Grab some for yourself and your teammates.</p>
                 </div>
                 <form id="donation_form">
                     <input type="text" onChange={populateFirstName} className="form-input" name="donor-first-name" id="donor-first-name" placeholder="Donor First Name" />
@@ -1661,7 +1661,7 @@ return (
                             <img src="/images/arrow-payment.svg" alt="arrow" />
                         </div>}
                         <div className="total-price">
-                            Total Order: <div>£<span>{raffleCount * 5}</span>.00</div>
+                            Total Order: <div>€<span>{raffleCount * 5}</span>.00</div>
                         </div>
                     </div>
                 </form>
