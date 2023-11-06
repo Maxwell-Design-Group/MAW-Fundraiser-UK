@@ -388,7 +388,7 @@ return (
         <img className="stars" src="/images/stars.svg" alt="stars" />
         <div className="text_wrap">
             <h2>Welcome to the Cerberus Annual Make-A-Wish Raffle Fundraiser!</h2>
-            <p>Last year we partnered with Make-A-Wish UK and held our very first fundraiser at our annual Christmas party.
+            <p>Last year we partnered with Make-A-Wish UK and held our very first fundraiser at our annual UK Holiday party.
                 <br /><br />
                 More than 60,000 children in the UK have been diagnosed with a critical condition, changing their lives and the lives of their families forever. The power of a wish brings light and joy to children and leaves a lasting impact on all their lives.
                 <br /><br />
