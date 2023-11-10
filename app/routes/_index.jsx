@@ -392,7 +392,7 @@ return (
                 <br /><br />
                 More than 60,000 children in the UK have been diagnosed with a critical condition, changing their lives and the lives of their families forever. The power of a wish brings light and joy to children and leaves a lasting impact on all their lives.
                 <br /><br />
-                We managed to raise an incredible €10,000 at our launch and we are hoping to surpass this in 2023! So, please dig deep, and let’s help grant some more wishes!
+                We managed to raise an incredible £10,000 at our launch and we are hoping to surpass this in 2023! So, please dig deep, and let’s help grant some more wishes!
             </p>
         </div>
     </section>
