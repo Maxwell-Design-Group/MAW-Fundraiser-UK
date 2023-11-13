@@ -1618,7 +1618,7 @@ return (
                         
                     {(listSelect === 'For a Department') ? <div className="disclaimer department-disclaimer"><b>Disclaimer:</b> When designating tickets to a department, please be aware that the recipients will not receive any notification regarding your gift.</div> : <></>}
 
-                    {(listSelect != 'For a Department') ?  <div className="disclaimer"><b>Disclaimer:</b> Managing Directors/Operating Executives and above are required to designate their raffle ticket(s) to another Cerberus employee(s).</div> : <></>}
+                    {(listSelect != 'For a Department') ?  <div className="disclaimer"><b>Disclaimer:</b> Senior Managing Directors are required to designate their raffle ticket(s) to another Cerberus employee(s).</div> : <></>}
                     
                     {(listSelect === 'A Cerberus Employee') ? 
                         <div className="recipients">
